@@ -5,12 +5,14 @@
 1. vcpkg   
 
 # 의존성 설치
-* vcpkg install utfcpp
-* vcpkg install rapidjson
 * REQUIRED ADD ENVIREMENT VCPKG_ROOT
+```
+vcpkg install utfcpp
+vcpkg install rapidjson
+```
    
 # 빌드
-```uv build --wheel --python <사용하고자하는 Python Version>   
-example> 
+```
+uv build --wheel --python <사용하고자하는 Python Version>   
 uv build --wheel --python 3.13   
 ```
